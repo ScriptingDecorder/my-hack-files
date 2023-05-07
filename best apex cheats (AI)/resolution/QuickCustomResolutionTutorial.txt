@@ -1,0 +1,43 @@
+(this is the resolution file for 1280x720(example))
+this numbers are x,y coordination of white pixels from gun icons on bottoom right of screen (RGB 255 255 255) or (0xFFFFFF)
+weapon1,1014,693   (weapon slot one(dont choose white)-you dont need to change it unless the guns doesn't says default etc. on equip)
+weapon2,1215,692   (weapon slot two(dont choose white)-you dont need to change it unless the guns doesn't says default etc. on equip)
+r99,1055,651,1103,643,1129,654   (three pixels from R99-Choose them all white (0xFFFFFF))
+r99_gs,1059,676    (Get one white pixel of r99 golden scope icon (0xFFFFFF))
+r301,1051,646,1055,646,1128,652    (three....)
+re45,1070,650,1099,641,1108,669   (three....)
+re45_gs,1059,676      (Get... (its in the same place as r99 golden scope))
+p2020,1069,646,1085,654,1101,670
+p2020_gs,1041,676      (Get one white pixel of p2020 golden scope icon (0xFFFFFF))
+flatline,1046,650,1105,655,1110,662
+prowler,1105,663,1071,659,1090,646
+prowler_gs,1041,676
+hemlok,1087,661,1054,649,1120,649
+rampage,1039,650,1097,656,1134,655
+wingman,1068,656,1104,667,1105,667
+wingman_gs,1041,676
+p3030,1046,647,1085,650,1100,649
+car,1126,651,1105,660,1058,649
+car_gs,1059,676
+lstar,1053,663,1058,644,1111,646
+devotion,1133,647,1092,643,1040,648
+devotion_turbocharger,1100,672
+volt,1062,657,1056,650,1120,647
+volt_gs,1059,676     (same as r99_gs)
+havoc,1122,651,1047,648,1106,663
+havoc_turbocharger,1081,672
+g7,1045,646,1135,659,1067,656
+spitfire,1133,655,1086,663,1120,660
+alternator,1076,652,1094,653,1094,669
+alternator_gs,1022,676      (Get one white pixel of alternator golden scope icon (0xFFFFFF))
+longbow,1135,650,1044,648,1076,658
+longbow_gs,1059,670      (Get one white pixel of longbow golden scope icon (0xFFFFFF))
+chargerifle,1119,667,1072,644,1074,668
+chargerifle_gs,1021,670      (Get one white pixel of chargerifle golden scope icon (0xFFFFFF))
+sentinal,1040,670,1040,670,1040,670
+sentinal_gs,1040,670     (Get one white pixel of sentinal golden scope icon (0xFFFFFF))
+mozambique,1109,661,1064,652,1098,647
+peacekeeper,1129,660,1079,647,1094,648
+evo8,1132,649,1056,650,1092,647
+mastiff,1042,655,1038,655,1118,670
+BloodHoundUltimateIcon,636,664 (The icon of Blood hound ultimate turns white when its ready and this is top left of that icon (inside icon))

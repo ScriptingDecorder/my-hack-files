@@ -1,0 +1,4 @@
+Simple external Trigger
+Undected = 15/03/2023 - Today
+
+only work on windowed fullscreen = 1920x1080

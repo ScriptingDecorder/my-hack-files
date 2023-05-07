@@ -1,0 +1,85 @@
+Hello!
+
+This cheat on machine learning, which recognizes objects in a certain range, then leads to an object and makes a shot. He does not interfere in any way with the memory of the game, he simply takes screenshots and recognizes objects.
+
+Of course, this is not the final version, in the future we will have to wait for improvements of a different type (amd video card support (if I have one for the test ), smooth aim, AdvancedRCS for any games, improvements in object recognition, etc.).
+
+I have an Nvidia GeForce GTX 1070 video card and I don’t notice delays during the game.
+
+Okay, let's get down to the detailed description:
+Menu:
+1. Button Insert for enable training mode or disable
+2. Arrows for change size of the blue box (training mode)
+3. Button PageUp and PageDown for shoot object for shoot or train
+4. Button Home for make picture of object (training mode) (you will hear the sound of Beep)
+5. Button
+
+Default settings:
+1. RButton for shoot (u can change it)
+2. Insert for enter in training mode (u can change it)
+
+In the config.json file, you can change the range resolution for object recognition, enable or disable SimpleRCS, specify which game we will use and specify the buttons for attack and training.
+
+Requirements:
+1. Install the latest Nvidia driver for your graphic device
+2. Install Nvidia CUDA Toolkit 10.0 (must be installed add a hardware driver for cuda support) https://developer.nvidia.com/cuda-toolkit-archive
+
+If you have something missing, the program will tell you about it.
+
+New video on how to train step by step : Click
+
+Video on how to training: Click
+
+Video demonstration of a "good" trained neural network: Click
+
+Sources: https://github.com/Trombov/FutureNNAimbot
+
+If u want make point for enemys on the picture then just run yolo_mark.bat file(change it first for correct values)
+
+
+The lower the AVG, the better the detection of objects.
+
+If there are any problems or suggestions, please write me about it.
+
+Also pull request at github is welcome!
+
+Let's train it together!
+Please, upload your trainfiles to github in the folder or if u can't then in someone cloud! Thank u!
+
+Check Readme on github for newest information about hax!
+
+
+FAMOUS ISSUES:
+1.Unable to load DLL 'x64\yolo_cpp_dll_gpu.dll'
+Solution: Uninstall CUDA 10.1 and make sure that you install CUDA 10.0
+
+Download:
+
+Main files : Download
+Ver 0.7.2-alpha : Download
+Release version 0.7.1-alpha : Download
+
+Unpack the archives files in the same folder
+
+
+There will be different configs for different games:
+
+
+Change log:
+
+Version 0.7-alpha: Thanks to microsoftv
+
+1. Added ScreenshotKey to config
+2. Added ScreenshotModeKey to config (centered/following)
+3. Added an auto-config for when no config is found
+4. Fixed the english of many lines of text
+5. NN config is now auto-set to batch=1/64 and subdivisions=1/8 for when training or not.
+6. Added a check for changing the width/height of the trainbox so that it does not go beyond the parent box.
+8. Added ScreenshotMode to UI when training.
+9. Fixed spacing of many lines.
+
+Version 0.6-alpha: https://www.youtube.com/watch?v=NhTlDnXeLC8
+1. Added funtion "Empty object on screenshots for better detection" check README.md to how to use it
+2. Added Smooth aim
+3. Better aiming on two enemys on the frame
+4. Train again mode correcting
